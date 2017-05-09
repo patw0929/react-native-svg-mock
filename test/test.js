@@ -1,5 +1,3 @@
-require('react-native-mock/mock');
-
 import
   ReactNativeSvg,
   {
