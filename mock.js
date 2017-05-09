@@ -1,9 +1,7 @@
-"use strict";
-
-var ReactNativeSvgMock = require("./build/index");
+const ReactNativeSvgMock = require('./build/index');
 
 // the cache key that real react-native-svg would get
-var key = require.resolve("react-native-svg");
+const key = require.resolve('react-native-svg');
 
 // make sure the cache is filled with our lib
 require.cache[key] = {
