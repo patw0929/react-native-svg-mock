@@ -9,9 +9,9 @@ var createComponent=function createComponent(name){var _class,_temp;return _temp
 
 
 {
-// const type = name[0].toLowerCase() + name.substr(1);
+var type=name[0].toLowerCase()+name.substr(1);
 
-return _react2.default.createElement('react-native-svg-mock',null,this.props.children);
+return _react2.default.createElement(type,this.props,this.props.children);
 }}]);return _class;}(_react.Component),_class.displayName=name,_class.propTypes={children:_react.PropTypes.node},_temp;};
 
 
