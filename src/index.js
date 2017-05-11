@@ -9,9 +9,9 @@ const createComponent = (name) => class extends Component {
   }
 
   render() {
-    // const type = name[0].toLowerCase() + name.substr(1);
+    const type = name[0].toLowerCase() + name.substr(1);
 
-    return React.createElement('react-native-svg-mock', null, this.props.children);
+    return React.createElement(type, this.props, this.props.children);
   }
 };
 
